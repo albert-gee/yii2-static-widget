@@ -2,7 +2,7 @@
 namespace xalberteinsteinx\staticWidget\backend\controllers;
 
 use bl\multilang\entities\Language;
-use xalberteinsteinx\staticWidget\common\models\{
+use xalberteinsteinx\staticWidget\common\entities\{
     StaticWidget, StaticWidgetTranslation
 };
 use yii\helpers\Url;

@@ -1,5 +1,5 @@
 <?php
-namespace xalberteinsteinx\staticWidget\common\models;
+namespace xalberteinsteinx\staticWidget\common\entities;
 
 use bl\multilang\entities\Language;
 use Yii;
@@ -9,11 +9,11 @@ use yii\db\ActiveRecord;
  * This is the model class for table "static_widget_translation".
  * @author Albert Gainutdinov <xalbert.einsteinx@gmail.com>
  *
- * @property integer $id
- * @property integer $static_widget_id
- * @property integer $language_id
- * @property string $content
- * @property string $description
+ * @property integer        $id
+ * @property integer        $static_widget_id
+ * @property integer        $language_id
+ * @property string         $content
+ * @property string         $description
  *
  * @property Language $language
  */
